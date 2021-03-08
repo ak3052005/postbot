@@ -2,9 +2,9 @@
   "name": "none",
   "description": "None",
   "logo": "https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png",
-  "repository": "https://github.com/Lakhac/allchecker",
-  "website": "https://github.com/Lakhac/allchecker",
-  "success_url": "https://github.com/Lakhac/allchecker",
+  "repository": "https://github.com/ak3052005/postbot/",
+  "website": "https://github.com/ak3052005/postbot/",
+  "success_url": "https://github.com/ak3052005/postbot/",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
