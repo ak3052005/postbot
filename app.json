@@ -1,7 +1,12 @@
 {
-  "name": "none",
-  "description": "None",
+  "name": "post-bot",
+  "description": "poster",
   "logo": "https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png",
+   "keywords": [
+  "telegram",
+  "modular",
+  "productivity"
+ ],
   "repository": "https://github.com/ak3052005/postbot/",
   "website": "https://github.com/ak3052005/postbot/",
   "success_url": "https://github.com/ak3052005/postbot/",
