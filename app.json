@@ -1,0 +1,38 @@
+{
+  "name": "none",
+  "description": "None",
+  "logo": "https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png",
+  "repository": "https://github.com/Lakhac/allchecker",
+  "website": "https://github.com/Lakhac/allchecker",
+  "success_url": "https://github.com/Lakhac/allchecker",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }]
+}
